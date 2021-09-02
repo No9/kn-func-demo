@@ -1,0 +1,12 @@
+name: src
+namespace: ""
+runtime: node
+image: de.icr.io/serverless
+imageDigest: ""
+builder: quay.io/boson/faas-nodejs-builder:v0.8.3
+builderMap:
+  default: quay.io/boson/faas-nodejs-builder:v0.8.3
+volumes: []
+envs: []
+annotations: {}
+options: {}
